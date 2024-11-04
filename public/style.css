@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    height: 2000px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+input{
+    border: none;
+}
+
+input:focus{
+    outline: 0px;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: #E7EEFF;
+}
+
+.none{
+    display: none;
+}
+
+.header_inner{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 182.5px;
+}
+
+.header_logo_text{
+    color: #211966;
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin: 0px;
+}
+
+.header_btns{
+    width: 575px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_btns_btn{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #4E4E4E;
+}
+
+.header_contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.header_contact_town{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header_contact_town_text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #4E4E4E;
+    margin: 0px;
+}
+
+.header_contact_phone{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #4E4E4E;
+    margin: 0px;
+}
+
+.nav_menu{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7EEFF;
+    border-bottom: solid 1px #D3D3D3;
+}
+
+.nav_menu_logo{
+    margin-right: 30px;
+}
+
+.nav_menu_inner{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu_catalog{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #fff;
+    background-color: #220AEA;
+    border-radius: 10px;
+    margin: 0 272.5px 0 0;
+}
+
+.nav_menu_search_form{
+    position: relative;
+}
+
+.nav_menu_search_input{
+    width: 575px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.nav_menu_search_btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.nav_menu_btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.nav_menu_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #4E4E4E;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
