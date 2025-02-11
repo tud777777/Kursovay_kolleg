@@ -23,6 +23,12 @@ header{
     background-color: #E7EEFF;
 }
 
+button{
+    border: none;
+    background: none;
+    padding: 0;
+}
+
 .none{
     display: none;
 }
@@ -94,7 +100,8 @@ header{
 
 .nav_menu{
     position: sticky;
-    top: 0px;
+    z-index: 9999;
+    top: -1px;
     width: 100%;
     height: 90px;
     display: flex;
@@ -172,4 +179,42 @@ header{
     font-size: 16px;
     font-family: "Roboto";
     font-weight: 400;
+}
+
+.main_sliders{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.main_sliders_inner{
+    width: 1440px;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_slider_stocks{
+    width: 1074px;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main_slider_stocks_slides{
+    display: flex;
+}
+
+.slide_stocks{
+    transition: 1s;
+}
+
+.main_slider_stocks_buttons{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    margin-left: 954px;
+    margin-top: 415px;
 }
