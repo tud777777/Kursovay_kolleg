@@ -1,11 +1,17 @@
 <script setup lang="ts">
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
+import {provide} from "vue";
+const props = defineProps({
+    canLogin: Boolean,
+    canRegister: Boolean
+})
+provide('canLogin', props.canLogin)
+provide('canRegister', props.canRegister)
 </script>
 
 <template>
     <Head title="Dashboard" />
-
     <AuthenticatedLayout>
         <template #header>
             <h2
