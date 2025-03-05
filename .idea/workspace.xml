@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/build_project/resources/images/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/images/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/images/pensil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/images/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/ConstructionCrews/ConstructionCrews.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Equipments/Equipments.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Materials/AddMaterial.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Курсовая колледж.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Курсовая колледж.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/MaterialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/MaterialController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Models/Equipment.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Models/Equipment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ApplicationLogo-D_qg-LGE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/AuthenticatedLayout.vue_vue_type_script_setup_true_lang-BOzJq1_l.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ConfirmPassword-DkFw1Y9r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Dashboard-BAlQ5i68.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm-DoVg8wlo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm.vue_vue_type_script_setup_true_lang-Cjc_Yp7a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Edit-cCj8E817.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ForgotPassword-Bl4pPKD2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/GuestLayout.vue_vue_type_script_setup_true_lang-DZfpONho.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Login-C-NEvncR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Materials-CNbT4-c0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/PrimaryButton-BchwKqZ3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Register-WOm5r32n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ResetPassword-vi0zwb9S.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/TextInput.vue_vue_type_script_setup_true_lang-DcbKL6hT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm-CNufIiqL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm.vue_vue_type_script_setup_true_lang-jkKTwi_I.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm-CLJpHVBN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm.vue_vue_type_script_setup_true_lang-Dicf5XlT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/VerifyEmail-DVUFR_ax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Welcome-2boggpoh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-BDDOQqjM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-Jw4EWUUl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/DangerButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/DangerButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Materials/Materials.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Materials/Materials.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/build_project/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tud777777&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tud777777/Kursovay_kolleg.git",
+    "accountId": "eac3451d-2aa4-44b7-8a26-2d045370dd89"
+  }
+}]]></component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\OSPanel\modules\PHP-8.3\PHP\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/build_project/vendor/composer" />
+      <path value="$PROJECT_DIR$/build_project/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/build_project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/build_project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/build_project/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/build_project/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/build_project/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/build_project/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/build_project/vendor/inertiajs/inertia-laravel" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/build_project/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/build_project/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/build_project/vendor/tightenco/ziggy" />
+      <path value="$PROJECT_DIR$/build_project/vendor/ta-tikoma/phpunit-architecture-test" />
+      <path value="$PROJECT_DIR$/build_project/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/build_project/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/build_project/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/build_project/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/build_project/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/build_project/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/build_project/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/build_project/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/build_project/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/build_project/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/build_project/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/build_project/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/build_project/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/build_project/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/build_project/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/build_project/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/build_project/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/build_project/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/build_project/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/build_project/vendor/league/config" />
+      <path value="$PROJECT_DIR$/build_project/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/build_project/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/build_project/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/build_project/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/build_project/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/build_project/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/build_project/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/build_project/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/build_project/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/build_project/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/build_project/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/build_project/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/build_project/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/build_project/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/build_project/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/build_project/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/build_project/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/build_project/vendor/pestphp/pest-plugin" />
+      <path value="$PROJECT_DIR$/build_project/vendor/pestphp/pest" />
+      <path value="$PROJECT_DIR$/build_project/vendor/pestphp/pest-plugin-laravel" />
+      <path value="$PROJECT_DIR$/build_project/vendor/pestphp/pest-plugin-arch" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/build_project/vendor/pestphp/pest-plugin-mutate" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/build_project/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/build_project/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/build_project/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/build_project/vendor/brianium/paratest" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2tiD2C2fYXDy2mODPyYwteUPfqz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Курсовая колледж/build_project/resources/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\Desktop\\Курсовая колледж\\build_project\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Курсовая колледж\build_project\resources\images" />
+      <recent name="C:\Users\user\Desktop\Курсовая колледж\build_project\resources\js\Pages\ConstructionCrews" />
+      <recent name="C:\Users\user\Desktop\Курсовая колледж\build_project\resources\js\Pages\Equipment" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="" />
+      <created>1740825807703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740825807703</updated>
+      <workItem from="1740825812006" duration="8337000" />
+      <workItem from="1740953071461" duration="878000" />
+      <workItem from="1740989589734" duration="10780000" />
+      <workItem from="1741010281007" duration="7032000" />
+      <workItem from="1741078347308" duration="7275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/build_project/vendor/tightenco/ziggy" />
+      </list>
+    </option>
+  </component>
+</project>

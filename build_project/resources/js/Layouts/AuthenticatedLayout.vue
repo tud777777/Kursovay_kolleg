@@ -38,6 +38,21 @@ const canLogin = inject('canLogin')
                                     Dashboard
                                 </NavLink>
                                 <NavLink
+                                    :href="route('materials.index')"
+                                >
+                                    Materials
+                                </NavLink>
+                                <NavLink
+                                    :href="route('equipments.index')"
+                                >
+                                    Equipments
+                                </NavLink>
+                                <NavLink
+                                    :href="route('construction_crews.index')"
+                                >
+                                    Construction crews
+                                </NavLink>
+                                <NavLink
                                     :href="route('profile.edit')"
                                 >
                                     Profile
@@ -165,13 +180,13 @@ const canLogin = inject('canLogin')
                 class="bg-white shadow"
                 v-if="$slots.header"
             >
-                <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 flex justify-between items-center">
                     <slot name="header" />
                 </div>
             </header>
 
             <!-- Page Content -->
-            <main>
+            <main class="pb-6">
                 <slot />
             </main>
         </div>

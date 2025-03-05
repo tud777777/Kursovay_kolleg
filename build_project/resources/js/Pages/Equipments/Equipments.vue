@@ -1,17 +1,17 @@
 <script setup>
 
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
-import {Head, Link, useForm} from "@inertiajs/vue3";
+import {Head, useForm} from "@inertiajs/vue3";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
 import Item from "@/Components/Item.vue";
-import Modal from "@/Components/Modal.vue";
-import TextInput from "@/Components/TextInput.vue";
+import {ref} from "vue";
 import InputLabel from "@/Components/InputLabel.vue";
 import InputError from "@/Components/InputError.vue";
-import {ref} from "vue";
+import TextInput from "@/Components/TextInput.vue";
+import Modal from "@/Components/Modal.vue";
 
 const props = defineProps({
-    materials: Array,
+    equipments: Array,
     add_success: Boolean,
 })
 const isModalOpen = ref(false);
@@ -32,33 +32,31 @@ const form = useForm({
 });
 
 const submit = () => {
-    form.post(route('materials.add'));
+    form.post(route('equipments.add'));
 };
-
-
 </script>
 
 <template>
-    <Head title="Materials" />
+    <Head title="Equipments" />
     <AuthenticatedLayout>
         <template #header>
             <h2
                 class="text-xl font-semibold leading-tight text-gray-800"
             >
-                Materials
+                Equipments
             </h2>
             <PrimaryButton @click="openModal">
-                Add materials
+                Add equipments
             </PrimaryButton>
         </template>
-        <Item
-            v-if="materials.length !== 0"
-            v-for="material in materials"
-            :key="material.id"
-            :name="material.name"
-            :description="material.description"
-            :id="material.id"
-            nameOfItems="materials"
+
+        <Item v-if="equipments.length !== 0"
+              v-for="equipment in equipments"
+              :key="equipment.id"
+              :name="equipment.name"
+              :description="equipment.description"
+              :id="equipment.id"
+              nameOfItems="equipments"
         />
         <div v-else class="py-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -66,7 +64,7 @@ const submit = () => {
                     class="overflow-hidden bg-white shadow-sm sm:rounded-lg"
                 >
                     <div class="p-6 text-gray-900">
-                        You don`t have any materials yet!
+                        You don`t have any equipments yet!
                     </div>
                 </div>
             </div>
@@ -75,7 +73,7 @@ const submit = () => {
             <div class="p-6">
                 <form @submit.prevent="submit">
                     <div class="w-full flex justify-center items-center">
-                        <h2 class="text-2xl">Add material</h2>
+                        <h2 class="text-2xl">Add equipment</h2>
                     </div>
                     <div class="mt-2">
                         <InputLabel for="name" value="Name" />
