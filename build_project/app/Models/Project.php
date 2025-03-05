@@ -10,7 +10,6 @@ class Project extends Model
     protected $fillable = [
         'name',
         'description',
-        'address',
         'end_date',
         'owner_id',
     ];

@@ -35,25 +35,29 @@ const canLogin = inject('canLogin')
                                     :href="route('dashboard')"
                                     :active="route().current('dashboard')"
                                 >
-                                    Dashboard
+                                    Projects
                                 </NavLink>
                                 <NavLink
                                     :href="route('materials.index')"
+                                    :active="route().current('materials.index')"
                                 >
                                     Materials
                                 </NavLink>
                                 <NavLink
                                     :href="route('equipments.index')"
+                                    :active="route().current('equipments.index')"
                                 >
                                     Equipments
                                 </NavLink>
                                 <NavLink
                                     :href="route('construction_crews.index')"
+                                    :active="route().current('construction_crews.index')"
                                 >
                                     Construction crews
                                 </NavLink>
                                 <NavLink
                                     :href="route('profile.edit')"
+                                    :active="route().current('profile.edit')"
                                 >
                                     Profile
                                 </NavLink>

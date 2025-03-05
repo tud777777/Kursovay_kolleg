@@ -5,46 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build_project/resources/images/arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_project/resources/images/arrow-up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_project/resources/images/pensil.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_project/resources/images/trash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/ConstructionCrews/ConstructionCrews.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Equipments/Equipments.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Materials/AddMaterial.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Курсовая колледж.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Курсовая колледж.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/MaterialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/MaterialController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Models/Equipment.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Models/Equipment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ApplicationLogo-D_qg-LGE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/AuthenticatedLayout.vue_vue_type_script_setup_true_lang-BOzJq1_l.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ConfirmPassword-DkFw1Y9r.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Dashboard-BAlQ5i68.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm-DoVg8wlo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm.vue_vue_type_script_setup_true_lang-Cjc_Yp7a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Edit-cCj8E817.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ForgotPassword-Bl4pPKD2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/GuestLayout.vue_vue_type_script_setup_true_lang-DZfpONho.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Login-C-NEvncR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Materials-CNbT4-c0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/PrimaryButton-BchwKqZ3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Register-WOm5r32n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ResetPassword-vi0zwb9S.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/TextInput.vue_vue_type_script_setup_true_lang-DcbKL6hT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm-CNufIiqL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm.vue_vue_type_script_setup_true_lang-jkKTwi_I.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm-CLJpHVBN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm.vue_vue_type_script_setup_true_lang-Dicf5XlT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/VerifyEmail-DVUFR_ax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Welcome-2boggpoh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-BDDOQqjM.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-Jw4EWUUl.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/images/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/images/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Select.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Textarea.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/CreateProject.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Models/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Models/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/AddMaterial-BHZ7Taj_.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ApplicationLogo-DAjmgcxj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/AuthenticatedLayout.vue_vue_type_script_setup_true_lang-DyDABoCO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ConfirmPassword-6qoYWKbC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ConstructionCrews-YrjXuG5X.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DangerButton-CXdULWnV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Dashboard-DePyfpaL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm-D4Ofrmvu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm.vue_vue_type_script_setup_true_lang-BQfWAAv9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Edit-CqiFkT_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Equipments-J3PyBzjJ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ForgotPassword-DbtVjrmG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/GuestLayout.vue_vue_type_script_setup_true_lang-LME_9siY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Item-BQns7ZJN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Login-DKTUJrxH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Materials-Ca-GtDRz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Modal.vue_vue_type_script_setup_true_lang-DsxTudH6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/PrimaryButton-C3-PuK4L.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Register-C_l6uB1i.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ResetPassword-B-EXo0tg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/TextInput.vue_vue_type_script_setup_true_lang-fqcGLVvc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm-D_eTgL87.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm.vue_vue_type_script_setup_true_lang-Ct1ngCan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm-CssMwHP0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm.vue_vue_type_script_setup_true_lang-Bj2pB6Qm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/VerifyEmail-B8uQZa77.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Welcome-rsM-PaO4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-DhJu6FJY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-YD7VU3Vf.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/DangerButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/DangerButton.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/Modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/SecondaryButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/SecondaryButton.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Materials/Materials.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Materials/Materials.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Materials/AddMaterial.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/tud777777/Kursovay_kolleg.git",
-    "accountId": "eac3451d-2aa4-44b7-8a26-2d045370dd89"
+    "accountId": "69058851-3e26-476d-9573-ec1a39a13836"
   }
 }]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\OSPanel\modules\PHP-8.3\PHP\php.exe">
@@ -223,37 +226,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Курсовая колледж/build_project/resources/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\Desktop\\Курсовая колледж\\build_project\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/user/Desktop/Kursovay_kolleg/build_project/resources/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\user\\Desktop\\Kursovay_kolleg\\build_project\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Kursovay_kolleg\build_project\resources\images" />
       <recent name="C:\Users\user\Desktop\Курсовая колледж\build_project\resources\images" />
       <recent name="C:\Users\user\Desktop\Курсовая колледж\build_project\resources\js\Pages\ConstructionCrews" />
       <recent name="C:\Users\user\Desktop\Курсовая колледж\build_project\resources\js\Pages\Equipment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Kursovay_kolleg\build_project\resources\js\Pages\Projects" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -270,6 +277,7 @@
       <workItem from="1740989589734" duration="10780000" />
       <workItem from="1741010281007" duration="7032000" />
       <workItem from="1741078347308" duration="7275000" />
+      <workItem from="1741153764184" duration="14439000" />
     </task>
     <servers />
   </component>
