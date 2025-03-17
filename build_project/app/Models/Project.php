@@ -14,16 +14,21 @@ class Project extends Model
         'owner_id',
     ];
 
-    public function take_materials(): HasMany
+
+    public function owner()
     {
-        return $this->hasMany(MaterialForProject::class, 'project_id', 'id');
+        return $this->belongsTo(User::class, 'owner_id');
     }
-    public function take_equipments(): HasMany
+    public function create_materials()
     {
-        return $this->hasMany(EquipmentForProject::class, 'project_id', 'id');
+        return $this->belongsToMany(Material::class, 'materials_for_project', 'project_id', 'material_id');
     }
-    public function take_construction_crews(): HasMany
+    public function create_equipments()
     {
-        return $this->hasMany(ConstructionCrewForProject::class, 'project_id', 'id');
+        return $this->belongsToMany(Equipment::class, 'equipments_for_project', 'project_id', 'equipment_id');
+    }
+    public function create_construction_crews()
+    {
+        return $this->belongsToMany(Equipment::class, 'construction_crews_for_project', 'project_id', 'construction_crew_id');
     }
 }

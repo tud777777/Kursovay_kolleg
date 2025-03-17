@@ -11,20 +11,25 @@ import Select from "@/Components/Select.vue";
 import SecondaryButton from "@/Components/SecondaryButton.vue";
 import {ref} from "vue";
 const props = defineProps({
+    project: Array,
+    materials_for_project: Array,
+    equipments_for_project: Array,
+    construction_crews_for_project: Array,
     equipments: Array,
     materials: Array,
     construction_crews: Array
 })
 const form = useForm({
-    name: "",
-    description: "",
-    end_date: "",
+    projectId: props.project.id,
+    name: props.project.name,
+    description: props.project.description,
+    end_date: props.project.end_date,
     materials: [],
     equipments: [],
     construction_crews: []
 })
 function submit(){
-    form.post(route("project.create"))
+    form.patch(route("project.update"))
 }
 const materials_count = ref({count: 0})
 const equipments_count = ref({count: 0})
@@ -37,16 +42,30 @@ function delete_select(i, form_elem, ref){
     form_elem.splice(i-1,1)
     ref.count--
 }
+
+for(let i = 0; i < props.materials_for_project.length; i++){
+    materials_count.value.count++
+    form.materials.push({ id: props.materials_for_project[i].material_id, count: props.materials_for_project[i].count });
+}
+for(let i = 0; i < props.equipments_for_project.length; i++){
+    equipments_count.value.count++
+    form.equipments.push({ id: props.equipments_for_project[i].equipment_id, count: props.equipments_for_project[i].count });
+}
+for(let i = 0; i < props.construction_crews_for_project.length; i++){
+    construction_crews_count.value.count++
+    form.construction_crews.push({ id: props.construction_crews_for_project[i].construction_crew_id, count: props.construction_crews_for_project[i].count });
+}
 </script>
 
 <template>
     <Head title="Create Project" />
     <AuthenticatedLayout>
+        {{ materials_for_project[0].material_id }}
         <div class="p-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <form @submit.prevent="submit">
                 <div class="w-full flex justify-center items-center">
-                    <h2 class="text-2xl">Create Project</h2>
+                    <h2 class="text-2xl">Edit Project</h2>
                 </div>
                 <div class="mt-2">
                     <InputLabel for="name" value="Name" />
@@ -171,7 +190,7 @@ function delete_select(i, form_elem, ref){
                         :disabled="form.processing"
 
                     >
-                        Create
+                        Update
                     </PrimaryButton>
                 </div>
             </form>

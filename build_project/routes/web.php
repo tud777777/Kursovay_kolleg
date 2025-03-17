@@ -20,15 +20,15 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Projects/Dashboard', [
-        'canLogin' => false,
-        'canRegister' => false,
-    ]);
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/dashboard',[ProjectController::class, 'create'])->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/projects/create', [ProjectController::class, 'create_project'])->name('project.create');
+    Route::get('/projects/create', [ProjectController::class, 'create_project'])->name('project.index');
+    Route::post('/projects/create', [ProjectController::class, 'add_project'])->name('project.create');
+    Route::delete('/projects', [ProjectController::class, 'delete_project'])->name('project.delete');
+    Route::get('/projects/current', [ProjectController::class, 'show_project'])->name('project.current');
+    Route::get('/projects/edit', [ProjectController::class, 'show_edit_project'])->name('project.edit');
+    Route::patch('/projects/edit', [ProjectController::class, 'edit_project'])->name('project.update');
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

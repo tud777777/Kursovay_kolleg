@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class EquipmentForProject extends Model
 {
+    protected $table = 'equipments_for_project';
     public $timestamps = false;
     protected $fillable = [
         'project_id',
@@ -14,12 +15,8 @@ class EquipmentForProject extends Model
         'count',
     ];
 
-    public function take_project(): HasOne
+    public function equipment()
     {
-        return $this->hasOne(Project::class, 'id', 'project_id');
-    }
-    public function take_material(): HasOne
-    {
-        return $this->hasOne(Equipment::class, 'id', 'equipment_id');
+        return $this->belongsTo(Equipment::class, 'equipment_id');
     }
 }

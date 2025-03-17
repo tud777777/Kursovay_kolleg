@@ -7,18 +7,15 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class ConstructionCrewForProject extends Model
 {
+    protected $table = 'construction_crews_for_project';
     public $timestamps = false;
     protected $fillable = [
         'project_id',
         'construction_crew_id',
     ];
 
-    public function take_project(): HasOne
+    public function construction_crew()
     {
-        return $this->hasOne(Project::class, 'id', 'project_id');
-    }
-    public function take_construction_crew(): HasOne
-    {
-        return $this->hasOne(ConstructionCrew::class, 'id', 'construction_crew_id');
+        return $this->belongsTo(ConstructionCrew::class, 'construction_crew_id');
     }
 }

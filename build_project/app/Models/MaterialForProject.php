@@ -7,19 +7,15 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class MaterialForProject extends Model
 {
+    protected $table = 'materials_for_project';
     public $timestamps = false;
     protected $fillable = [
         'project_id',
         'material_id',
         'count',
     ];
-
-    public function take_project(): HasOne
+    public function material()
     {
-        return $this->hasOne(Project::class, 'id', 'project_id');
-    }
-    public function take_material(): HasOne
-    {
-        return $this->hasOne(Material::class, 'id', 'material_id');
+        return $this->belongsTo(Material::class, 'material_id');
     }
 }
