@@ -108,11 +108,21 @@ class ProjectController extends Controller
                 $project->create_materials()->attach($material['material_id'], ['count' => $material['count']]);
                 unset($validated['materials'][$key]);
             }
+            else{
+                $material_for_project = MaterialForProject::query()->where('id','=', $material['id'])->first();
+                $material_for_project->delete();
+                $project->create_materials()->attach($material['material_id'], ['count' => $material['count']]);
+            }
         }
         foreach ($validated['equipments'] as $key => $equipment) {
             if($equipment['id'] == null){
                 $project->create_equipments()->attach($equipment['equipment_id'], ['count' => $equipment['count']]);
                 unset($validated['equipments'][$key]);
+            }
+            else{
+                $equipment_for_project = EquipmentForProject::query()->where('id','=', $equipment['id'])->first();
+                $equipment_for_project->delete();
+                $project->create_equipments()->attach($equipment['equipment_id'], ['count' => $equipment['count']]);
             }
         }
         foreach ($validated['construction_crews'] as $key => $construction_crew) {
@@ -120,7 +130,13 @@ class ProjectController extends Controller
                 $project->create_construction_crews()->attach($construction_crew['construction_crew_id']);
                 unset($validated['construction_crews'][$key]);
             }
+            else{
+                $construction_crew_for_project = ConstructionCrewForProject::query()->where('id','=', $construction_crew['id'])->first();
+                $construction_crew_for_project->delete();
+                $project->create_construction_crews()->attach($construction_crew['construction_crew_id']);
+            }
         }
+
 
         $compareById = function ($a, $b) {
             return $a['id'] <=> $b['id'];
