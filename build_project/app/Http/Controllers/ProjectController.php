@@ -103,39 +103,56 @@ class ProjectController extends Controller
         $materials_for_project = MaterialForProject::query()->where('project_id','=', $validated['projectId'])->get();
         $equipments_for_project = EquipmentForProject::query()->where('project_id','=', $validated['projectId'])->get();
         $construction_crews_for_project = ConstructionCrewForProject::query()->where('project_id','=', $validated['projectId'])->get();
-        $materials_unique = [];
-        $diff1 = array_diff($validated['materials'], $materials_for_project);
-        $diff2 = array_diff($materials_for_project, $validated['materials']);
-        $materials_unique = array_merge($diff1, $diff2);
-        foreach ($materials_unique as $material_unique) {
-            $material = MaterialForProject::query()->where('id','=', $material_unique->id)->first();
-            if(empty($material)){
-                $project->create_materials()->attach($material_unique['id'], ['count' => $material_unique['count']]);
-            }
-            else{
-                $material->delete();
+        foreach ($validated['materials'] as $key => $material) {
+            if($material['id'] == null){
+                $project->create_materials()->attach($material['material_id'], ['count' => $material['count']]);
+                unset($validated['materials'][$key]);
             }
         }
-        $equipments_unique = array_unique($validated['equipments'], $equipments_for_project);
-        foreach ($equipments_unique as $equipment_unique) {
-            $equipment = MaterialForProject::query()->where('id','=', $equipment_unique->id)->first();
-            if(empty($equipment)){
-                $project->create_equipments()->attach($equipment_unique['id'], ['count' => $equipment_unique['count']]);
-            }
-            else{
-                $equipment->delete();
+        foreach ($validated['equipments'] as $key => $equipment) {
+            if($equipment['id'] == null){
+                $project->create_equipments()->attach($equipment['equipment_id'], ['count' => $equipment['count']]);
+                unset($validated['equipments'][$key]);
             }
         }
-        $construction_crews_unique = array_unique($validated['construction_crews'], $construction_crews_for_project);
-        foreach ($construction_crews_unique as $construction_crew_unique) {
-            $construction_crew = MaterialForProject::query()->where('id','=', $construction_crew_unique->id)->first();
-            if(empty($construction_crew)){
-                $project->create_equipments()->attach($construction_crew_unique['id'], ['count' => $construction_crew_unique['count']]);
-            }
-            else{
-                $construction_crew->delete();
+        foreach ($validated['construction_crews'] as $key => $construction_crew) {
+            if($construction_crew['id'] == null){
+                $project->create_construction_crews()->attach($construction_crew['construction_crew_id']);
+                unset($validated['construction_crews'][$key]);
             }
         }
+
+        $compareById = function ($a, $b) {
+            return $a['id'] <=> $b['id'];
+        };
+
+        $unique_in_materials1 = array_udiff($validated['materials'], $materials_for_project->toArray(), $compareById);
+        $unique_in_materials2 = array_udiff($materials_for_project->toArray(), $validated['materials'], $compareById);
+        $unique_materials = array_merge($unique_in_materials1, $unique_in_materials2);
+
+        foreach ($unique_materials as $unique_material) {
+            $material = MaterialForProject::query()->where('id','=', $unique_material['id'])->first();
+            $material->delete();
+        }
+
+        $unique_in_equipments1 = array_udiff($validated['equipments'], $equipments_for_project->toArray(), $compareById);
+        $unique_in_equipments2 = array_udiff($equipments_for_project->toArray(), $validated['equipments'], $compareById);
+        $unique_equipments = array_merge($unique_in_equipments1, $unique_in_equipments2);
+
+        foreach ($unique_equipments as $unique_equipment) {
+            $equipment = EquipmentForProject::query()->where('id','=', $unique_equipment['id'])->first();
+            $equipment->delete();
+        }
+
+        $unique_in_construction_crews1 = array_udiff($validated['construction_crews'], $construction_crews_for_project->toArray(), $compareById);
+        $unique_in_construction_crews2 = array_udiff($construction_crews_for_project->toArray(), $validated['construction_crews'], $compareById);
+        $unique_construction_crews = array_merge($unique_in_construction_crews1, $unique_in_construction_crews2);
+
+        foreach ($unique_construction_crews as $unique_construction_crew) {
+            $construction_crew = ConstructionCrewForProject::query()->where('id','=', $unique_construction_crew['id'])->first();
+            $construction_crew->delete();
+        }
+
         $project = Project::with('owner')->where('id','=', $validated['projectId'])->first();
         $materials = MaterialForProject::with('material')->where('project_id','=', $validated['projectId'])->get();
         $equipments = EquipmentForProject::with('equipment')->where('project_id','=', $validated['projectId'])->get();

@@ -42,25 +42,24 @@ function delete_select(i, form_elem, ref){
     form_elem.splice(i-1,1)
     ref.count--
 }
-
 for(let i = 0; i < props.materials_for_project.length; i++){
     materials_count.value.count++
-    form.materials.push({ id: props.materials_for_project[i].material_id, count: props.materials_for_project[i].count });
+    form.materials.push({ id: props.materials_for_project[i].id, material_id: props.materials_for_project[i].material_id, count: props.materials_for_project[i].count });
 }
+
 for(let i = 0; i < props.equipments_for_project.length; i++){
     equipments_count.value.count++
-    form.equipments.push({ id: props.equipments_for_project[i].equipment_id, count: props.equipments_for_project[i].count });
+    form.equipments.push({ id: props.equipments_for_project[i].id, equipment_id: props.equipments_for_project[i].equipment_id, count: props.equipments_for_project[i].count });
 }
 for(let i = 0; i < props.construction_crews_for_project.length; i++){
     construction_crews_count.value.count++
-    form.construction_crews.push({ id: props.construction_crews_for_project[i].construction_crew_id, count: props.construction_crews_for_project[i].count });
+    form.construction_crews.push({ id: props.construction_crews_for_project[i].id, construction_crew_id: props.construction_crews_for_project[i].construction_crew_id, count: props.construction_crews_for_project[i].count });
 }
 </script>
 
 <template>
     <Head title="Create Project" />
     <AuthenticatedLayout>
-        {{ materials_for_project[0].material_id }}
         <div class="p-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <form @submit.prevent="submit">
@@ -110,7 +109,7 @@ for(let i = 0; i < props.construction_crews_for_project.length; i++){
                         <Select
                             required
                             class="block w-full"
-                            v-model="form.materials[i-1].id"
+                            v-model="form.materials[i-1].material_id"
                         >
                             <option v-for="material in materials" :value="material.id">{{material.name}}</option>
                         </Select>
@@ -138,7 +137,7 @@ for(let i = 0; i < props.construction_crews_for_project.length; i++){
                     <div v-for="i in equipments_count.count" :key="i" class="flex justify-between items-center w-full gap-2 mt-1">
                         <Select
                             class="block w-full"
-                            v-model="form.equipments[i-1].id"
+                            v-model="form.equipments[i-1].equipment_id"
                             required
                         >
                             <option v-for="equipment in equipments" :value="equipment.id">{{equipment.name}}</option>
@@ -168,7 +167,7 @@ for(let i = 0; i < props.construction_crews_for_project.length; i++){
                         <Select
                             required
                             class="block w-full"
-                            v-model="form.construction_crews[i-1].id"
+                            v-model="form.construction_crews[i-1].construction_crew_id"
                         >
                             <option v-for="construction_crew in construction_crews" :value="construction_crew.id">{{construction_crew.name}}</option>
                         </Select>

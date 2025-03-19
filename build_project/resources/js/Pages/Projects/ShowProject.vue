@@ -1,18 +1,10 @@
 <script setup>
 
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
-import {Head, useForm} from "@inertiajs/vue3";
-import InputError from "@/Components/InputError.vue";
+import {Head} from "@inertiajs/vue3";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
-import InputLabel from "@/Components/InputLabel.vue";
-import TextInput from "@/Components/TextInput.vue";
-import Textarea from "@/Components/Textarea.vue";
-import Select from "@/Components/Select.vue";
-import SecondaryButton from "@/Components/SecondaryButton.vue";
-import {ref} from "vue";
-import Materials from "@/Pages/Materials/Materials.vue";
 import ItemForProject from "@/Components/ItemForProject.vue";
-import DangerButton from "@/Components/DangerButton.vue";
+import { Link } from '@inertiajs/vue3';
 const props = defineProps({
     project: Array,
     equipments: Array,
@@ -82,13 +74,13 @@ const props = defineProps({
                     />
                 </div>
                 <div class="mt-4 flex items-center justify-center">
-                    <a :href="route('dashboard')">
+                    <Link :href="route('dashboard')">
                         <PrimaryButton
                             class="ms-4"
                         >
                             Exit
                         </PrimaryButton>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

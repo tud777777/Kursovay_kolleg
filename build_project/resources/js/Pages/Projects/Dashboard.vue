@@ -1,6 +1,6 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
-import {Head, router} from '@inertiajs/vue3';
+import {Head,Link, router} from '@inertiajs/vue3';
 import {provide} from "vue";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
 import NavLink from "../../../../vendor/laravel/breeze/stubs/inertia-vue/resources/js/Components/NavLink.vue";
@@ -23,17 +23,17 @@ provide('canRegister', props.canRegister)
             >
                 Projects
             </h2>
-            <a :href="route('project.index')">
+            <Link :href="route('project.index')">
                 <PrimaryButton>
                     Create project
                 </PrimaryButton>
-            </a>
+            </Link>
         </template>
-        {{projects}}
         <Project
             v-if="projects.length !== 0"
             v-for="project in projects"
             :project="project"
+            :key=project.id
         />
         <div v-else class="py-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
