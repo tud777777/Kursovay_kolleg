@@ -6,12 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="Kursovaya">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/database/migrations/0001_01_01_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/0001_01_01_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/GuestLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/GuestLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/CreateProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/CreateProject.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/Dashboard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/EditProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/EditProject.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/types/index.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +49,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tud777777/Kursovay_kolleg.git&quot;,
-    &quot;accountId&quot;: &quot;be1b9552-b1fe-45c0-b789-e3063d6e59f3&quot;
+    &quot;accountId&quot;: &quot;592c894d-bacc-4937-8134-4449d1590427&quot;
   }
 }</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\OSPanel\modules\PHP-8.3\PHP\php.exe">
@@ -200,7 +208,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\Desktop\\Курсовая колледж\\build_project\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\Desktop\\Kursovay_kolleg\\build_project\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -226,14 +234,16 @@
       <option name="pestRunnerSettings">
         <PestRunner configuration_file="$PROJECT_DIR$/build_project/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
       </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings configuration_file="$PROJECT_DIR$/build_project/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
+      </option>
       <method v="2" />
     </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
-        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
       </set>
     </attachedChunks>
   </component>
@@ -258,6 +268,10 @@
       <workItem from="1741696935210" duration="8740000" />
       <workItem from="1742197704051" duration="975000" />
       <workItem from="1742302757496" duration="10508000" />
+      <workItem from="1742372292999" duration="5303000" />
+      <workItem from="1742458289123" duration="1495000" />
+      <workItem from="1742462619469" duration="830000" />
+      <workItem from="1742800036853" duration="13943000" />
     </task>
     <task id="LOCAL-00001" summary="Kursovaya">
       <option name="closed" value="true" />

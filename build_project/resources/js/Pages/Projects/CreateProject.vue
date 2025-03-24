@@ -18,6 +18,7 @@ const props = defineProps({
 const form = useForm({
     name: "",
     description: "",
+    image: "",
     end_date: "",
     materials: [],
     equipments: [],
@@ -42,9 +43,10 @@ function delete_select(i, form_elem, ref){
 <template>
     <Head title="Create Project" />
     <AuthenticatedLayout>
+        {{form.image}}
         <div class="p-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <form @submit.prevent="submit">
+            <form @submit.prevent="submit" enctype="multipart/form-data">
                 <div class="w-full flex justify-center items-center">
                     <h2 class="text-2xl">Create Project</h2>
                 </div>
@@ -71,6 +73,20 @@ function delete_select(i, form_elem, ref){
                     />
 
                     <InputError class="mt-2" :message="form.errors.description" />
+                </div>
+                <div class="mt-2">
+                    <InputLabel for="image" value="Add image" />
+
+                    <input
+                        id="image"
+                        name="image"
+                        type="file"
+                        class="mt-1 block w-full"
+                        @change="form.image = $event.target.files[0]"
+                        accept="image/png, image/jpeg, image/jpg"
+                    >
+
+                    <InputError class="mt-2" :message="form.errors.image" />
                 </div>
                 <div class="mt-2">
                     <InputLabel for="end_date" value="End date" />

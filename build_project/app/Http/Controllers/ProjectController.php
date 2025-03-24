@@ -9,6 +9,7 @@ use App\Models\EquipmentForProject;
 use App\Models\Material;
 use App\Models\MaterialForProject;
 use App\Models\Project;
+use Illuminate\Container\Attributes\Storage;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use Inertia\Response;
@@ -38,10 +39,13 @@ class ProjectController extends Controller
             'construction_crews' => '',
             'name' => 'required|max:255',
             'description' => 'required|max:255',
+            'image' => 'required|max:255',
             'end_date' => 'required|date',
         ]);
         $user = auth()->user();
-        $project = $user->project_cr()->create(['name' => $validated['name'], 'description' => $validated['description'], 'end_date' => $validated['end_date']]);
+        $project = $user->project_cr()->create(['name' => $validated['name'], 'description' => $validated['description'], 'image' => 1, 'end_date' => $validated['end_date']]);
+//        $file = $request->file('image');
+//        $file->store();
         foreach ($validated['materials'] as $material) {
             $project->create_materials()->attach($material['id'], ['count' => $material['count']]);
         }
