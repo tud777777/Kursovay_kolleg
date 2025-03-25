@@ -6,20 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="Kursovaya">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Models/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Models/Project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/database/migrations/0001_01_01_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/0001_01_01_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/GuestLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/GuestLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/CreateProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/CreateProject.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/EditProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/EditProject.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,9 +235,6 @@
       <option name="pestRunnerSettings">
         <PestRunner configuration_file="$PROJECT_DIR$/build_project/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
       </option>
-      <option name="runnerSettings">
-        <PhpTestRunnerSettings configuration_file="$PROJECT_DIR$/build_project/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
-      </option>
       <method v="2" />
     </configuration>
   </component>
@@ -272,6 +270,8 @@
       <workItem from="1742458289123" duration="1495000" />
       <workItem from="1742462619469" duration="830000" />
       <workItem from="1742800036853" duration="13943000" />
+      <workItem from="1742821347816" duration="334000" />
+      <workItem from="1742883412545" duration="14286000" />
     </task>
     <task id="LOCAL-00001" summary="Kursovaya">
       <option name="closed" value="true" />

@@ -23,13 +23,17 @@ const form = useForm({
     projectId: props.project.id,
     name: props.project.name,
     description: props.project.description,
+    image: null,
     end_date: props.project.end_date,
     materials: [],
     equipments: [],
     construction_crews: []
 })
 function submit(){
-    form.patch(route("project.update"))
+    form.transform((data) => ({
+        ...data,
+        _method: 'patch'
+    })).post(route('project.update'));
 }
 const materials_count = ref({count: 0})
 const equipments_count = ref({count: 0})
@@ -62,7 +66,7 @@ for(let i = 0; i < props.construction_crews_for_project.length; i++){
     <AuthenticatedLayout>
         <div class="p-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <form @submit.prevent="submit">
+            <form @submit.prevent="submit" enctype="multipart/form-data">
                 <div class="w-full flex justify-center items-center">
                     <h2 class="text-2xl">Edit Project</h2>
                 </div>
@@ -89,6 +93,20 @@ for(let i = 0; i < props.construction_crews_for_project.length; i++){
                     />
 
                     <InputError class="mt-2" :message="form.errors.description" />
+                </div>
+                <div class="mt-2">
+                    <InputLabel for="image" value="Update image" />
+
+                    <input
+                        id="image"
+                        name="image"
+                        type="file"
+                        class="mt-1 block w-full"
+                        @change="form.image = $event.target.files[0]"
+                        accept="image/png, image/jpeg, image/jpg, image/webp"
+                    >
+
+                    <InputError class="mt-2" :message="form.errors.image" />
                 </div>
                 <div class="mt-2">
                     <InputLabel for="end_date" value="End date" />

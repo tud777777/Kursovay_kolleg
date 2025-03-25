@@ -22,6 +22,9 @@ const props = defineProps({
                 <div class="w-full flex justify-center items-center">
                     <h2 class="text-2xl">{{project.name}}</h2>
                 </div>
+                <div v-if="project.image" class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3">
+                    <img class="w-[100px] h-[75px] object-cover rounded-md border border-gray-200 shadow-sm" :src="`/images/${project.image}`" alt="ne to">
+                </div>
                 <div class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3">
                     <p class="block font-medium text-gray-700">Created by:</p>
                     <p class="block font-medium text-gray-700">{{project.owner.last_name}} {{project.owner.first_name}}</p>

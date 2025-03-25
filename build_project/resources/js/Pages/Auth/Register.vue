@@ -38,7 +38,6 @@ const submit = () => {
                     type="text"
                     class="mt-1 block w-full"
                     v-model="form.first_name"
-                    required
                     autofocus
                     autocomplete="name"
                 />
@@ -54,7 +53,6 @@ const submit = () => {
                     type="text"
                     class="mt-1 block w-full"
                     v-model="form.last_name"
-                    required
                     autofocus
                     autocomplete="name"
                 />
@@ -85,7 +83,6 @@ const submit = () => {
                     type="date"
                     class="mt-1 block w-full"
                     v-model="form.birth_date"
-                    required
                     autofocus
                     autocomplete="name"
                 />
@@ -98,10 +95,9 @@ const submit = () => {
 
                 <TextInput
                     id="email"
-                    type="email"
+                    type="text"
                     class="mt-1 block w-full"
                     v-model="form.email"
-                    required
                     autocomplete="username"
                 />
 
@@ -116,7 +112,6 @@ const submit = () => {
                     type="password"
                     class="mt-1 block w-full"
                     v-model="form.password"
-                    required
                     autocomplete="new-password"
                 />
 

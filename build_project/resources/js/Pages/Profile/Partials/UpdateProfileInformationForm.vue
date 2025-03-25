@@ -46,7 +46,6 @@ const form = useForm({
                     type="text"
                     class="mt-1 block w-full"
                     v-model="form.last_name"
-                    required
                     autofocus
                     autocomplete="name"
                 />
@@ -62,7 +61,6 @@ const form = useForm({
                     type="text"
                     class="mt-1 block w-full"
                     v-model="form.first_name"
-                    required
                     autofocus
                     autocomplete="name"
                 />
@@ -78,7 +76,6 @@ const form = useForm({
                     type="text"
                     class="mt-1 block w-full"
                     v-model="form.patronymic"
-                    required
                     autofocus
                     autocomplete="name"
                 />
@@ -94,7 +91,6 @@ const form = useForm({
                     type="text"
                     class="mt-1 block w-full"
                     v-model="form.phone"
-                    required
                     autofocus
                     autocomplete="name"
                 />
@@ -107,10 +103,9 @@ const form = useForm({
 
                 <TextInput
                     id="email"
-                    type="email"
+                    type="text"
                     class="mt-1 block w-full"
                     v-model="form.email"
-                    required
                     autocomplete="username"
                 />
 
