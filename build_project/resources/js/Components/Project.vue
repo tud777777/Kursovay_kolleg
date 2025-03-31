@@ -51,11 +51,6 @@ function edit() {
                         <p>{{project.name}}</p>
                     </div>
                     <div class="flex gap-2 items-center">
-                        <p>Created by:</p>
-                        <p>{{project.owner.last_name}}</p>
-                        <p>{{project.owner.first_name}}</p>
-                    </div>
-                    <div class="flex gap-2 items-center">
                         <p>End date:</p>
                         <p>{{project.end_date}}</p>
                     </div>

@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\User;
+use App\Rules\FirstUpperCase;
+use App\Rules\NoNumbers;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -31,11 +33,11 @@ class RegisteredUserController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $request->validate([
-            'first_name' => 'required|string|max:255|regex:/^[A-ZА-Я][a-zа-яё\s]*$/u',
-            'last_name' => 'required|string|max:255|regex:/^[A-ZА-Я][a-zа-яё\s]*$/u',
-            'patronymic' => 'nullable|string|max:255|regex:/^[A-ZА-Я][a-zа-яё\s]*$/u',
+            'first_name' => ['required', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
+            'last_name' => ['required', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
+            'patronymic' => ['nullable', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
             'birth_date' => 'required|date',
-            'email' => 'required|string|lowercase|email|max:255|unique:'.User::class,
+            'email' => 'required|string|lowercase|email:dns|max:255|unique:'.User::class,
             'password' => ['required', 'confirmed', Rules\Password::min(8)
             ->letters()  // Требуем буквы
             ->mixedCase() // Требуем заглавные и строчные

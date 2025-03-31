@@ -3,8 +3,11 @@
 namespace App\Http\Requests;
 
 use App\Models\User;
+use App\Rules\FirstUpperCase;
+use App\Rules\NoNumbers;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
+use Propaganistas\LaravelPhone\Rules\Phone;
 
 class ProfileUpdateRequest extends FormRequest
 {
@@ -16,15 +19,15 @@ class ProfileUpdateRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'first_name' => ['required', 'string', 'max:255', 'regex:/^[A-ZА-Я][a-zа-яё\s]*$/u'],
-            'last_name' => ['required', 'string', 'max:255', 'regex:/^[A-ZА-Я][a-zа-яё\s]*$/u'],
-            'patronymic' => ['nullable', 'string', 'max:255', 'regex:/^[A-ZА-Я][a-zа-яё\s]*$/u'],
-            'phone' => ['nullable', 'string', 'max:255'],
+            'first_name' => ['required', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
+            'last_name' => ['required', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
+            'patronymic' => ['nullable', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
+            'phone' => ['nullable', 'string', 'max:255', (new Phone)->international()->country('RU')],
             'email' => [
                 'required',
                 'string',
                 'lowercase',
-                'email',
+                'email:dns',
                 'max:255',
                 Rule::unique(User::class)->ignore($this->user()->id),
             ],

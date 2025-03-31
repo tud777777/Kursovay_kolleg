@@ -5,22 +5,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="Kursovaya">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Models/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Models/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/@esbuild/win32-x64/esbuild.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/@esbuild/win32-x64/esbuild.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/@esbuild/win32-x64/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/@esbuild/win32-x64/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/axios.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/browser/axios.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/browser/axios.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/browser/axios.cjs.map" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/browser/axios.cjs.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/esm/axios.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/node/axios.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/node/axios.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/dist/node/axios.cjs.map" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/dist/node/axios.cjs.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/index.d.cts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/index.d.cts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/adapters/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/adapters/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/core/Axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/core/Axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/core/buildFullPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/core/buildFullPath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/env/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/env/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/helpers/formDataToStream.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/helpers/formDataToStream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/helpers/resolveConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/helpers/resolveConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/platform/node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/platform/node/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/axios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/axios/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/esbuild/bin/esbuild" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/esbuild/bin/esbuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/esbuild/lib/main.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/esbuild/lib/main.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/esbuild/lib/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/esbuild/lib/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/esbuild/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/esbuild/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/bin/vite.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/bin/vite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/client.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/client.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/client/client.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/dist/client/client.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node-cjs/publicUtils.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node-cjs/publicUtils.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/chunks/dep-B42HB7IL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/chunks/dep-CJRd4GTw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/chunks/dep-Cg8OuIew.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/chunks/dep-DcIXjcop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/module-runner.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/module-runner.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/module-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/dist/node/module-runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/node_modules/vite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/node_modules/vite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/Project.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Project.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/CreateProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/CreateProject.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/EditProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/EditProject.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/vendor/pest-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/pest-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Курсовая.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Курсовая.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +102,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tud777777/Kursovay_kolleg.git&quot;,
-    &quot;accountId&quot;: &quot;592c894d-bacc-4937-8134-4449d1590427&quot;
+    &quot;accountId&quot;: &quot;69058851-3e26-476d-9573-ec1a39a13836&quot;
   }
 }</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\OSPanel\modules\PHP-8.3\PHP\php.exe">
@@ -184,6 +236,8 @@
       <path value="$PROJECT_DIR$/build_project/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/build_project/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/build_project/vendor/brianium/paratest" />
+      <path value="$PROJECT_DIR$/build_project/vendor/giggsey/libphonenumber-for-php-lite" />
+      <path value="$PROJECT_DIR$/build_project/vendor/propaganistas/laravel-phone" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -271,7 +325,13 @@
       <workItem from="1742462619469" duration="830000" />
       <workItem from="1742800036853" duration="13943000" />
       <workItem from="1742821347816" duration="334000" />
-      <workItem from="1742883412545" duration="14286000" />
+      <workItem from="1742883412545" duration="14641000" />
+      <workItem from="1742913946715" duration="2164000" />
+      <workItem from="1742972438279" duration="2497000" />
+      <workItem from="1742992797839" duration="1485000" />
+      <workItem from="1743065279947" duration="537000" />
+      <workItem from="1743420279615" duration="2581000" />
+      <workItem from="1743423617235" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="Kursovaya">
       <option name="closed" value="true" />
@@ -281,7 +341,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742197777110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Kursovaya">
+      <option name="closed" value="true" />
+      <created>1742899589431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742899589431</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Kursovaya">
+      <option name="closed" value="true" />
+      <created>1742899616290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742899616290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

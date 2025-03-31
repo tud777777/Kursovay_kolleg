@@ -4,6 +4,7 @@ import InputLabel from '@/Components/InputLabel.vue';
 import PrimaryButton from '@/Components/PrimaryButton.vue';
 import TextInput from '@/Components/TextInput.vue';
 import { Link, useForm, usePage } from '@inertiajs/vue3';
+import {nextTick, onMounted, ref} from "vue";
 
 defineProps<{
     mustVerifyEmail?: Boolean;
@@ -18,6 +19,77 @@ const form = useForm({
     patronymic: user.patronymic,
     phone: user.phone,
     email: user.email,
+});
+
+const phoneInput = ref<HTMLInputElement | null>(null);
+
+const formatPhoneNumber = (value: string): string => {
+    const cleaned = value.replace(/\D/g, '');
+    let formatted = '';
+
+    if (cleaned.length > 0) {
+        formatted = `+${cleaned.substring(0, 1)}`;
+    }
+    if (cleaned.length > 1) {
+        formatted += ` (${cleaned.substring(1, 4)}`;
+    }
+    if (cleaned.length > 4) {
+        formatted += `) ${cleaned.substring(4, 7)}`;
+    }
+    if (cleaned.length > 7) {
+        formatted += `-${cleaned.substring(7, 9)}`;
+    }
+    if (cleaned.length > 9) {
+        formatted += `-${cleaned.substring(9, 11)}`;
+    }
+
+    return formatted;
+};
+
+const formatPhone = (event: Event): void => {
+    const target = event.target as HTMLInputElement;
+    const selectionStart = target.selectionStart;
+    const previousLength = target.value.length;
+
+    form.phone = formatPhoneNumber(target.value);
+
+    // Корректируем позицию курсора
+    if (selectionStart && form.phone.length > previousLength) {
+        nextTick(() => {
+            if (phoneInput.value) {
+                phoneInput.value.setSelectionRange(selectionStart + 1, selectionStart + 1);
+            }
+        });
+    }
+};
+
+const handleKeyDown = (e: KeyboardEvent): void => {
+    // Разрешаем: backspace, delete, tab, escape, enter, стрелки
+    const allowedKeys = [46, 8, 9, 27, 13, 110];
+    const arrowKeys = [35, 36, 37, 38, 39, 40];
+
+    if (
+        allowedKeys.includes(e.keyCode) ||
+        (e.keyCode === 65 && e.ctrlKey) || // Ctrl+A
+        arrowKeys.includes(e.keyCode)
+    ) {
+        return;
+    }
+
+    // Запрещаем все, кроме цифр
+    if (
+        (e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) &&
+        (e.keyCode < 96 || e.keyCode > 105)
+    ) {
+        e.preventDefault();
+    }
+};
+
+// Инициализация значения при загрузке
+onMounted(() => {
+    if (phoneInput.value && phoneInput.value.value) {
+        form.phone = formatPhoneNumber(phoneInput.value.value);
+    }
 });
 
 </script>
@@ -88,11 +160,15 @@ const form = useForm({
 
                 <TextInput
                     id="phone"
-                    type="text"
                     class="mt-1 block w-full"
                     v-model="form.phone"
                     autofocus
                     autocomplete="name"
+                    type="tel"
+                    ref="phoneInput"
+                    @input="formatPhone"
+                    @keydown="handleKeyDown"
+                    placeholder="+7 (___) ___-__-__"
                 />
 
                 <InputError class="mt-2" :message="form.errors.phone" />
