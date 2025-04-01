@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Rules\FirstUpperCase;
 use App\Rules\NoNumbers;
+use App\Rules\NoSpaces;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -33,11 +34,11 @@ class RegisteredUserController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $request->validate([
-            'first_name' => ['required', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
-            'last_name' => ['required', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
-            'patronymic' => ['nullable', 'string', 'max:255', new NoNumbers(), new FirstUpperCase()],
+            'first_name' => ['required', 'string', 'max:255', 'min:2', new NoNumbers(), new FirstUpperCase()],
+            'last_name' => ['required', 'string', 'max:255', 'min:2', new NoNumbers(), new FirstUpperCase()],
+            'patronymic' => ['nullable', 'string', 'max:255', 'min:2', new NoNumbers(), new FirstUpperCase()],
             'birth_date' => 'required|date',
-            'email' => 'required|string|lowercase|email:dns|max:255|unique:'.User::class,
+            'email' => ['required','string','lowercase','email:dns','max:255','unique:'.User::class, new NoSpaces()],
             'password' => ['required', 'confirmed', Rules\Password::min(8)
             ->letters()  // Требуем буквы
             ->mixedCase() // Требуем заглавные и строчные

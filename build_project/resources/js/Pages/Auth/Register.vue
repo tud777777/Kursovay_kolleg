@@ -41,6 +41,7 @@ const submit = () => {
                     v-model="form.first_name"
                     autofocus
                     autocomplete="name"
+                    placeholder="Ivan"
                 />
 
                 <InputError class="mt-2" :message="form.errors.first_name" />
@@ -56,6 +57,7 @@ const submit = () => {
                     v-model="form.last_name"
                     autofocus
                     autocomplete="name"
+                    placeholder="Ivanov"
                 />
 
                 <InputError class="mt-2" :message="form.errors.last_name" />
@@ -71,6 +73,7 @@ const submit = () => {
                     v-model="form.patronymic"
                     autofocus
                     autocomplete="name"
+                    placeholder="Ivanovich"
                 />
 
                 <InputError class="mt-2" :message="form.errors.patronymic" />
@@ -100,6 +103,7 @@ const submit = () => {
                     class="mt-1 block w-full"
                     v-model="form.email"
                     autocomplete="username"
+                    placeholder="Ivanov@example.com"
                 />
 
                 <InputError class="mt-2" :message="form.errors.email" />
@@ -114,6 +118,7 @@ const submit = () => {
                     class="mt-1 block w-full"
                     v-model="form.password"
                     autocomplete="new-password"
+                    placeholder="Password123!"
                 />
 
                 <InputError class="mt-2" :message="form.errors.password" />
@@ -131,6 +136,7 @@ const submit = () => {
                     class="mt-1 block w-full"
                     v-model="form.password_confirmation"
                     autocomplete="new-password"
+                    placeholder="Password123!"
                 />
 
                 <InputError

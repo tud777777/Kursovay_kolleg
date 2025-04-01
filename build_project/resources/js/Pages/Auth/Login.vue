@@ -46,6 +46,7 @@ const submit = () => {
                     v-model="form.email"
                     autofocus
                     autocomplete="username"
+                    placeholder="Ivanov@example.com"
                 />
 
                 <InputError class="mt-2" :message="form.errors.email" />
@@ -60,6 +61,7 @@ const submit = () => {
                     class="mt-1 block w-full"
                     v-model="form.password"
                     autocomplete="current-password"
+                    placeholder="Password123!"
                 />
 
                 <InputError class="mt-2" :message="form.errors.password" />

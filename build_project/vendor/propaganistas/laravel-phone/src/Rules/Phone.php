@@ -39,7 +39,7 @@ class Phone implements ValidationRule, DataAwareRule
     public function validate(string $attribute, mixed $value, Closure $fail): void
     {
         if (! $this->passes($attribute, $value)) {
-            $fail('Wrong phone format')->translate();
+            $fail('Wrong phone format.')->translate();
         }
     }
 
