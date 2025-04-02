@@ -138,12 +138,17 @@ const canLogin = inject('canLogin')
                     }"
                     class="sm:hidden"
                 >
-                    <div class="space-y-1 pb-3 pt-2">
+                    <div v-if="canLogin" class="space-y-1 pb-3 pt-2">
                         <ResponsiveNavLink
-                            :href="route('dashboard')"
-                            :active="route().current('dashboard')"
+                            :href="route('login')"
                         >
-                            Dashboard
+                            Log in
+                        </ResponsiveNavLink>
+
+                        <ResponsiveNavLink
+                            :href="route('register')"
+                        >
+                            Register
                         </ResponsiveNavLink>
                     </div>
 
@@ -164,7 +169,34 @@ const canLogin = inject('canLogin')
                         </div>
 
                         <div class="mt-3 space-y-1">
-                            <ResponsiveNavLink :href="route('profile.edit')">
+                            <ResponsiveNavLink
+                                :href="route('dashboard')"
+                                :active="route().current('dashboard')"
+                            >
+                                Projects
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('materials.index')"
+                                :active="route().current('materials.index')"
+                            >
+                                Materials
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('equipments.index')"
+                                :active="route().current('equipments.index')"
+                            >
+                                Equipments
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('construction_crews.index')"
+                                :active="route().current('construction_crews.index')"
+                            >
+                                Construction crews
+                            </ResponsiveNavLink>
+                            <ResponsiveNavLink
+                                :href="route('profile.edit')"
+                                :active="route().current('profile.edit')"
+                            >
                                 Profile
                             </ResponsiveNavLink>
                             <ResponsiveNavLink

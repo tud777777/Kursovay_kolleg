@@ -6,51 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="Kursovaya">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/Auth/RegisteredUserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Requests/ProfileUpdateRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ApplicationLogo-Dq86TXs6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/AuthenticatedLayout.vue_vue_type_script_setup_true_lang-CM4iPQ0w.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ConfirmPassword-DpkdYBk-.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ConstructionCrews-CfZW_vpd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/CreateProject-Dy5oaehV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Dashboard-DphT9wB7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm-zxqwMv3m.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/DeleteUserForm.vue_vue_type_script_setup_true_lang-DqwqpPHc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Edit-1-m9nfVC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/EditProject-CymitwEE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Equipments-Cynzr6kx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ForgotPassword-BZBWXmBh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/GuestLayout.vue_vue_type_script_setup_true_lang-Dk4o9npx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Item-DFkA8O-i.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Login-SXphD8OW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Materials-Cc1s-RMU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Modal.vue_vue_type_script_setup_true_lang-BTfhvl5g.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/PrimaryButton-Bdb1pigu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Register-CEsRoxc2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ResetPassword-D9tS9eBz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/SecondaryButton.vue_vue_type_script_setup_true_lang-Dl8u4Dsj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Select-JQkuJq_B.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ShowProject-DwT3Njjw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/TextInput.vue_vue_type_script_setup_true_lang-CHc_z21z.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm-B3mROnmN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdatePasswordForm.vue_vue_type_script_setup_true_lang-CIvQrwW7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm-C72tnveQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/UpdateProfileInformationForm.vue_vue_type_script_setup_true_lang-BBwOraTq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/VerifyEmail-CV0Bu2vb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Welcome-B-uBHflv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-CCJcod2T.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/images/file (6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/images/file (7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/images/photo_2024-11-26_17-52-55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/images/photo_2024-11-26_17-52-551.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/images/photo_2024-11-26_17-52-552.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Auth/Register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/vendor/propaganistas/laravel-phone/src/Rules/Phone.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/vendor/propaganistas/laravel-phone/src/Rules/Phone.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$рсовая.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$рсовая.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$рсовая.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Курсовая.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Курсовая.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,12 +36,12 @@
     &quot;assignee&quot;: &quot;tud777777&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tud777777/Kursovay_kolleg.git&quot;,
-    &quot;accountId&quot;: &quot;69058851-3e26-476d-9573-ec1a39a13836&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tud777777/Kursovay_kolleg.git",
+    "accountId": "592c894d-bacc-4937-8134-4449d1590427"
   }
-}</component>
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\OSPanel\modules\PHP-8.3\PHP\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/build_project/vendor/composer" />
@@ -274,7 +232,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
       </set>
     </attachedChunks>
   </component>
@@ -313,6 +272,7 @@
       <workItem from="1743423617235" duration="2286000" />
       <workItem from="1743483880543" duration="3096000" />
       <workItem from="1743488931338" duration="1296000" />
+      <workItem from="1743582082570" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="Kursovaya">
       <option name="closed" value="true" />
@@ -338,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742899616290</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Kursovaya">
+      <option name="closed" value="true" />
+      <created>1743497571711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743497571711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
