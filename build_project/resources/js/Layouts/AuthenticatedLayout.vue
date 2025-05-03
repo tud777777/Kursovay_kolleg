@@ -18,7 +18,7 @@ const canLogin = inject('canLogin')
                 class="border-b border-gray-100 bg-white"
             >
                 <!-- Primary Navigation Menu -->
-                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
                     <div class="flex h-16 justify-between">
                         <div class="flex">
                             <!-- Logo -->
@@ -30,7 +30,7 @@ const canLogin = inject('canLogin')
                         </div>
                         <div class="flex">
                             <!-- Navigation Links -->
-                            <div v-if="!canLogin" class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                            <div v-if="!canLogin" class="hidden space-x-8 md:-my-px md:ms-10 md:flex">
                                 <NavLink
                                     :href="route('dashboard')"
                                     :active="route().current('dashboard')"
@@ -70,7 +70,7 @@ const canLogin = inject('canLogin')
                                 </NavLink>
                             </div>
 
-                            <div v-if="canLogin" class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                            <div v-if="canLogin" class="hidden space-x-8 md:-my-px md:ms-10 md:flex">
                                 <NavLink
                                     :href="route('login')"
                                 >
@@ -88,7 +88,7 @@ const canLogin = inject('canLogin')
 
 
                         <!-- Hamburger -->
-                        <div class="-me-2 flex items-center sm:hidden">
+                        <div class="-me-2 flex items-center md:hidden">
                             <button
                                 @click="
                                     showingNavigationDropdown =
@@ -136,7 +136,7 @@ const canLogin = inject('canLogin')
                         block: showingNavigationDropdown,
                         hidden: !showingNavigationDropdown,
                     }"
-                    class="sm:hidden"
+                    class="md:hidden"
                 >
                     <div v-if="canLogin" class="space-y-1 pb-3 pt-2">
                         <ResponsiveNavLink
@@ -216,7 +216,7 @@ const canLogin = inject('canLogin')
                 class="bg-white shadow"
                 v-if="$slots.header"
             >
-                <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 flex justify-between items-center">
+                <div class="mx-auto max-w-7xl px-4 py-6 md:px-6 lg:px-8 flex justify-between items-center">
                     <slot name="header" />
                 </div>
             </header>

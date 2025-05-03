@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="Kursovaya">
+      <change afterPath="$PROJECT_DIR$/build_project/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Dashboard-CPpDhibN.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Item-Dj8737DY.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ShowProject-DegjHds2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-hubZzQ_l.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/ItemForProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/ItemForProject.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/Project.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Project.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$рсовая.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_project/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/views/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Курсовая.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Курсовая.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Методические указания по подготовке и защиты курсовой работы МДК 05.01_МДК.05.02.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Методические указания по подготовке и защиты курсовой работы МДК 05.01_МДК.05.02.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +50,12 @@
     &quot;assignee&quot;: &quot;tud777777&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tud777777/Kursovay_kolleg.git",
-    "accountId": "592c894d-bacc-4937-8134-4449d1590427"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tud777777/Kursovay_kolleg.git&quot;,
+    &quot;accountId&quot;: &quot;592c894d-bacc-4937-8134-4449d1590427&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\OSPanel\modules\PHP-8.3\PHP\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/build_project/vendor/composer" />
@@ -194,6 +208,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Курсовая колледж/build_project/resources/js/Pages/Projects&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -272,7 +287,15 @@
       <workItem from="1743423617235" duration="2286000" />
       <workItem from="1743483880543" duration="3096000" />
       <workItem from="1743488931338" duration="1296000" />
-      <workItem from="1743582082570" duration="332000" />
+      <workItem from="1743582082570" duration="4592000" />
+      <workItem from="1743627878228" duration="628000" />
+      <workItem from="1744019615496" duration="3836000" />
+      <workItem from="1744102058529" duration="906000" />
+      <workItem from="1744198304081" duration="1917000" />
+      <workItem from="1744886708073" duration="603000" />
+      <workItem from="1745473543672" duration="5967000" />
+      <workItem from="1745566309915" duration="1835000" />
+      <workItem from="1746199539413" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="Kursovaya">
       <option name="closed" value="true" />
@@ -306,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743497571711</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kursovaya">
+      <option name="closed" value="true" />
+      <created>1743584127398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743584127398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

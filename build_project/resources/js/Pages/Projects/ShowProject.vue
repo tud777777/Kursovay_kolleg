@@ -18,23 +18,23 @@ const props = defineProps({
     <AuthenticatedLayout>
         <div class="p-12">
             <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-                <div class="w-full flex justify-center items-center">
-                    <h2 class="text-2xl">{{project.name}}</h2>
+                <div class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3 overflow-hidden">
+                    <h2 class="text-2xl whitespace-normal break-words min-w-0">{{project.name}}</h2>
                 </div>
                 <div v-if="project.image" class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3">
-                    <img class="w-[100px] h-[75px] object-cover rounded-md border border-gray-200 shadow-sm" :src="`/images/${project.image}`" :key="`image-${Date.now()}`" alt="ne to">
+                    <img class="w-[200px] h-[150px] object-cover rounded-md border border-gray-200 shadow-sm" :src="`/images/${project.image}`" :key="`image-${Date.now()}`" alt="ne to">
                 </div>
                 <div class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3">
                     <p class="block font-medium text-gray-700">Created by:</p>
                     <p class="block font-medium text-gray-700">{{project.owner.last_name}} {{project.owner.first_name}}</p>
                 </div>
-                <div class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3">
+                <div class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3 overflow-hidden">
                     <p class="block font-medium text-gray-700">Description:</p>
-                    <p class="block font-medium text-gray-700">{{project.description}}</p>
+                    <p class="block font-medium text-gray-700 whitespace-normal break-words min-w-0">{{project.description}}</p>
                 </div>
                 <div class="mt-2 flex gap-2 sm:px-6 lg:px-8 pb-3">
                     <p class="block font-medium text-gray-700">End date:</p>
-                    <p class="block font-medium text-gray-700">{{project.end_date}}</p>
+                    <p class="block font-medium text-gray-700 text-wrap max-w-7xl">{{project.end_date}}</p>
                 </div>
                 <div class="mt-2">
                     <div class="mt-2 sm:px-6 lg:px-8">

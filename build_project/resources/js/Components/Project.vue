@@ -40,17 +40,17 @@ function edit() {
 
 <template>
     <div class="pt-6">
-        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-7xl md:px-6 lg:px-8">
             <div
                 class="overflow-hidden bg-white shadow-sm rounded-lg"
                 @click.prevent="show"
             >
                 <div class="p-6 text-gray-900 flex justify-between items-center">
-                    <div class="flex gap-2 items-center">
+                    <div class="flex gap-2 items-center overflow-hidden pr-1.5 box-border">
                         <p>Name:</p>
-                        <p>{{project.name}}</p>
+                        <p class="line-clamp-6 truncate w-[320px] block">{{project.name}}</p>
                     </div>
-                    <div class="flex gap-2 items-center">
+                    <div class="sm:flex gap-2 items-center hidden">
                         <p>End date:</p>
                         <p>{{project.end_date}}</p>
                     </div>

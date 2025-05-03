@@ -59,15 +59,15 @@ function edit_item(){
 
 <template>
     <div class="pt-6">
-        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-7xl md:px-6 lg:px-8">
             <div
                 @click.prevent="open"
                 class="overflow-hidden bg-white shadow-sm rounded-lg"
             >
                 <div class="p-6 text-gray-900 flex justify-between items-center">
-                    <div class="flex gap-2 items-center">
+                    <div class="flex gap-2 items-center overflow-hidden pr-1.5 box-border">
                         <p>Name:</p>
-                        <p>{{name}}</p>
+                        <p class="truncate max-w-80 block">{{name}}</p>
                     </div>
                     <div class="flex gap-4 items-center">
                         <PrimaryButton @click.stop.prevent="openEditModal">
@@ -83,10 +83,10 @@ function edit_item(){
                         <img ref="arrowRef" class="transition-all" src="../../images/arrow-down.svg" alt="arrow">
                     </div>
                 </div>
-                <div ref="descriptionRef" class="p-6 flex items-center text-gray-900 hidden">
-                    <div class="flex gap-2">
+                <div ref="descriptionRef" class="p-6 flex hidden items-center text-gray-900">
+                    <div class="flex gap-2 overflow-hidden">
                         <p>Description:</p>
-                        <p>{{description || "The description is missing"}}</p>
+                        <p class="whitespace-normal break-words min-w-0">{{description || "The description is missing"}}</p>
                     </div>
                 </div>
             </div>
@@ -95,8 +95,8 @@ function edit_item(){
     <Modal :show="isModalEditOpen" @close="closeEditModal" maxWidth="lg">
         <div class="p-6">
             <form @submit.prevent="edit_item">
-                <div class="w-full flex justify-center items-center">
-                    <h2 class="text-2xl">Edit {{name}}</h2>
+                <div class="w-full flex justify-center items-center overflow-hidden">
+                    <h2 class="truncate max-w-[450px] block text-2xl">Edit {{name}}</h2>
                 </div>
                 <div class="mt-2">
                     <InputLabel for="name" value="Name" />
@@ -139,7 +139,7 @@ function edit_item(){
     <Modal :show="isModalDeleteOpen" @close="closeDeleteModal" maxWidth="lg">
         <div class="p-6 flex flex-col gap-1">
             <div class="w-full flex justify-start items-center">
-                <h2 class="text-2xl">Delete "{{name}}"?</h2>
+                <h2 class="truncate max-w-[450px] block text-2xl">Delete "{{name}}"?</h2>
             </div>
             <div class="w-full flex justify-end items-center gap-2">
                 <PrimaryButton @click.prevent="closeDeleteModal">

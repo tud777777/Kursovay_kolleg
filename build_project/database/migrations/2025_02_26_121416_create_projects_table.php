@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('description');
+            $table->text('description');
             $table->string('image')->nullable();
             $table->date('end_date');
             $table->foreignId('owner_id')->constrained('users');

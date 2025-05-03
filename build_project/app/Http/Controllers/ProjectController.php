@@ -39,8 +39,8 @@ class ProjectController extends Controller
             'equipments' => '',
             'construction_crews' => '',
             'name' => 'required|max:255',
-            'description' => 'required|max:255',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
+            'description' => 'required',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:10000',
             'end_date' => 'required|date',
         ]);
         $user = auth()->user();
@@ -86,7 +86,9 @@ class ProjectController extends Controller
         ]);
         $project = Project::query()->where('id','=', $validated['id'])->first();
         $project->delete();
-        Storage::disk('public')->delete($project['image']);
+        if($project['image']){
+            Storage::disk('public')->delete($project['image']);
+        }
         $projects = Project::with('owner')->get();
         return Inertia::render('Projects/Dashboard', ['projects' => $projects]);
     }
@@ -119,9 +121,9 @@ class ProjectController extends Controller
             'materials' => '',
             'equipments' => '',
             'construction_crews' => '',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:2048',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:10000',
             'name' => 'required|max:255',
-            'description' => 'required|max:255',
+            'description' => 'required',
             'end_date' => 'required|date',
         ]);
         Project::query()->where('id','=', $validated['projectId'])->update(['name' => $validated['name'], 'description' => $validated['description'],'end_date' => $validated['end_date']]);

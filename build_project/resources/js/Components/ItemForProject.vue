@@ -31,20 +31,24 @@ const open = ()=>{
                 class="overflow-hidden bg-white shadow-sm rounded-lg"
             >
                 <div class="p-6 text-gray-900 flex justify-between items-center">
-                    <div class="flex gap-2 items-center">
+                    <div class="flex gap-2 items-center overflow-hidden pr-1.5 box-border">
                         <p>Name:</p>
-                        <p>{{name}}</p>
+                        <p class="truncate max-w-80 block">{{name}}</p>
                     </div>
-                    <div v-if="count" class="flex gap-2">
+                    <div v-if="count" class="md:flex hidden gap-2 pr-1.5 overflow-hidden box-border">
                         <p>Count:</p>
-                        <p>{{count}}</p>
+                        <p class="truncate max-w-[150px] block">{{count}}</p>
                     </div>
                     <img ref="arrowRef" class="transition-all" src="../../images/arrow-down.svg" alt="arrow">
                 </div>
-                <div ref="descriptionRef" class="p-6 flex flex-col gap-2 items-start text-gray-900 hidden">
-                    <div class="flex gap-2">
+                <div ref="descriptionRef" class="p-6 flex hidden flex-col gap-2 items-start text-gray-900">
+                    <div v-if="count" class="flex md:hidden gap-2 pr-1.5 overflow-hidden box-border">
+                        <p>Count:</p>
+                        <p class="truncate max-w-[150px] block">{{count}}</p>
+                    </div>
+                    <div class="flex gap-2 overflow-hidden">
                         <p>Description:</p>
-                        <p>{{description || "The description is missing"}}</p>
+                        <p class="whitespace-normal break-words max-w-[500px]">{{description || "The description is missing"}}</p>
                     </div>
                 </div>
             </div>
