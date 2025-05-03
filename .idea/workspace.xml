@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8d3d36-e02e-4715-b871-b204134c19ee" name="Changes" comment="Kursovaya">
-      <change afterPath="$PROJECT_DIR$/build_project/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/app/Http/Controllers/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/database/migrations/2025_02_26_121416_create_projects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Dashboard-CPpDhibN.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/Item-Dj8737DY.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/ShowProject-DegjHds2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/assets/app-hubZzQ_l.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/public/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/public/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/Item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/ItemForProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/ItemForProject.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Components/Project.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Components/Project.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Layouts/AuthenticatedLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Projects/ShowProject.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/js/Pages/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/js/Pages/Welcome.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_project/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/build_project/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Курсовая.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Курсовая.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Методические указания по подготовке и защиты курсовой работы МДК 05.01_МДК.05.02.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Методические указания по подготовке и защиты курсовой работы МДК 05.01_МДК.05.02.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +35,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tud777777/Kursovay_kolleg.git&quot;,
-    &quot;accountId&quot;: &quot;592c894d-bacc-4937-8134-4449d1590427&quot;
+    &quot;accountId&quot;: &quot;eac3451d-2aa4-44b7-8a26-2d045370dd89&quot;
   }
 }</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\OSPanel\modules\PHP-8.3\PHP\php.exe">
@@ -241,14 +223,16 @@
       <option name="pestRunnerSettings">
         <PestRunner configuration_file="$PROJECT_DIR$/build_project/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
       </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings configuration_file="$PROJECT_DIR$/build_project/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
+      </option>
       <method v="2" />
     </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
-        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
@@ -296,6 +280,7 @@
       <workItem from="1745473543672" duration="5967000" />
       <workItem from="1745566309915" duration="1835000" />
       <workItem from="1746199539413" duration="2732000" />
+      <workItem from="1746281075016" duration="4818000" />
     </task>
     <task id="LOCAL-00001" summary="Kursovaya">
       <option name="closed" value="true" />
@@ -342,11 +327,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="additionalRoots">
-      <list>
-        <option value="$PROJECT_DIR$/build_project/vendor/tightenco/ziggy" />
-      </list>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kursovaya" />
